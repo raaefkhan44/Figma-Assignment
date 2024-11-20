@@ -37,13 +37,13 @@ export default function Home() {
               <h1 className="font-bold text-[72px] relative inline-block ">
                 Project Management
               </h1>
-              <img
+              <Image
                 src="/images/underline.png"
                 alt="Element-image"
                 width="600"
                 height="30"
                 className="underline-image -mt-16"
-              />
+                />
             </div>
 
 
@@ -87,7 +87,7 @@ export default function Home() {
           <div >
             <h1 className="font-bold text-[72px] relative inline-block " >
               Work Together</h1>
-            <img
+            <Image 
               src="/images/Element-image.png"
               alt="Element-image"
               width="700"
@@ -126,7 +126,7 @@ export default function Home() {
             <h1 className="text-white font-bold text-[44px] relative inline-block">
               Use as Extenion
             </h1>
-            <img
+            <Image
               src="/images/underline.png"
               alt="Element-Image"
               width="450"
@@ -139,7 +139,7 @@ export default function Home() {
               save web pages or take screenshots as notes.
             </p>
             <button className="text-white w-[237px] h-[66px] p-4 bg-blue-500 rounded-lg">
-              Let's Go →
+              Let&apos;s Go →
             </button>
           </div>
           <div className="bg-[#C4DEFD] w-[500px] h-[350px] my-auto"></div>
@@ -162,7 +162,7 @@ export default function Home() {
             <h1 className="font-bold text-[72px] relative inline-block">
               Customize it to
               your needs    </h1>
-            <img
+              <Image
               src="/images/underline.png"
               alt="Element-image"
               width="600.44"
@@ -180,7 +180,7 @@ export default function Home() {
 
           <div className="mt-10">
             <button className="text-white w-[225px] h-[66px] bg-blue-400 p-4">
-              Let's Go→
+              Let&apos;s Go→
             </button>
           </div>
           <div />
@@ -541,7 +541,7 @@ export default function Home() {
         <div className="bg-blue-900 w-auto h-[400px] flex items-center">
           <div className="flex flex-row justify-center items-center align-center">
             <div className="-mr-[50px] -pr-[100px]">
-              <img
+            <Image
                 src="/images/Background-2.png"
                 alt="background-Image"
                 width={300}
@@ -588,7 +588,7 @@ export default function Home() {
 
             <h1 className="font-bold text-[72px] relative inline-block">
               100% your data  </h1>
-            <img
+            <Image
               src="/images/Element-image.png"
               alt="Element-image"
               width="480.15"
@@ -600,7 +600,7 @@ export default function Home() {
 
           <p className="font-normal text-[13.5px] text-left">
             The app is open source and your notes are saved to an open format,
-            so you'll always have  acces to them. Uses End-To-End Encryption
+            so you&apos;ll always have  acces to them. Uses End-To-End Encryption
             (E2EE) to source your notes and ensure no-one but yourself can
             access them.
           </p>
@@ -613,7 +613,7 @@ export default function Home() {
           <div />
         </div>
         <div className="relative w-full flex justify-end ">
-          <img
+        <Image
             src="/images/side-image.png"
             alt="side-image"
             className="relative -mt-96"
@@ -632,7 +632,7 @@ export default function Home() {
           Our sponsors
         </h1>
         <div className="flex justify-center">
-          <img
+        <Image
             src="/images/Element-image.png"
             alt="Element-image"
             width="700"
@@ -642,7 +642,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center">
-          <img
+        <Image
             src="/images/sponsors.png"
             alt="sponsors-image"
             width="1000.15"
@@ -702,7 +702,7 @@ export default function Home() {
 
       <div className="flex flex-col items-center pt-10 pb-10 gap-10">
         <h1 className="font-bold w-700 text-[54px] relative inline-block">What Our Clients Says</h1>
-        <img
+        <Image
           src="/images/Group.png"
           alt="Group-image"
           width="690"
@@ -711,7 +711,7 @@ export default function Home() {
         />
         <div className="flex justify-center gap-10">
           <div className="bg-white rounded-lg w-[300px] h-[350px] pl-5 shadow-2xl p-4">
-            <img
+          <Image
               src="/images/Quote.1.png"
               alt="Quote-image"
               width={54}
@@ -725,7 +725,7 @@ export default function Home() {
             <hr className="pb-9" />
             <div className="flex items-center justify-center gap-4">
               <div>
-                <img
+              <Image
                   src="/images/Avater.G.png"
                   alt="Avater-G"
                   width={54}
@@ -742,7 +742,7 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-[#4F9CF9] w-[300px] h-[350px] rounded-lg p-4">
-            <img
+          <Image
               src="/images/Quote.2.png"
               alt="Quote-image"
               width={54}
@@ -756,7 +756,7 @@ export default function Home() {
             <hr className="pb-9 " />
             <div className="flex items-center justify-center gap-4">
               <div>
-                <img
+              <Image
                   src="/images/Avater.B.png"
                   alt="Avater-B"
                   width={54}
@@ -775,7 +775,7 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-[#4F9CF9] w-[300px] h-[350px] rounded-lg p-4">
-            <img
+          <Image
               src="/images/Quote.2.png"
               alt="Quote-2"
               width={54}
@@ -789,7 +789,7 @@ export default function Home() {
             <hr className="pb-9 " />
             <div className="flex items-center justify-center gap-4">
               <div>
-                <img
+              <Image
                   src="/images/Avater.W.png"
                   alt="Avater-W"
                   width={54}
@@ -808,7 +808,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <img src="/images/Slider.png"
+        <Image 
+          src="/images/Slider.png"
           alt="Slider"
           width={60}
           height={5} />
@@ -910,3 +911,4 @@ export default function Home() {
     </div>
   )
 }
+ 
